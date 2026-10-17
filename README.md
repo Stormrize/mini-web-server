@@ -1,4 +1,4 @@
-# Multi-threaded web server with rust (std only no dependecies)
+### Multi-threaded web server with rust (std only no dependecies)
 
 ## Disclaimer & Assets Info
 
