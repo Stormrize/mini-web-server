@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring Map</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        @media (min-width: 768px) {
+            .navbar-nav {
+                float: none !important;
+                display: flex !important;
+                justify-content: space-between !important;
+            }
+
+            .navbar-nav > li {
+                float: none !important
+            }
+        }
+        .navbar-nav > li > a {
+            color:#dddddd !important;
+            text-decoration: none;
+        }
+        .navbar-nav > li > a:hover {
+            text-decoration: underline;
+            color: #007BFF !important;
+        }
+        .navbar-inverse {
+            background-color: rgba(34, 34, 34, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="color:aliceblue !important;">MyWebSite</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../../index.html">Bootstrap</a></li>
+                    <li><a href="../index.html">Elden Ring Website</a></li>
+                    <li><a href="../../GK2_letztes_Jahr/index.html">Gk2 vom letzten Jahr</a></li>
+                    <li><a href="../../animation/index.html">Animation</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid"></div>
+        <div class="row">
+            <header class="col-xs-12">
+                <h1 class="text-center">Elden Ring Map</h1>
+            </header>
+        </div>
+        <div class="row">
+            <nav class="col-md-3 col-sm-4">
+                <div class="well">
+                    <h2>Navigation</h2>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="klassen.html">Classes</a></li>
+                        <li><a href="attribute.html">Attribute</a></li>
+                        <li><a href="bosse.html">Bosses</a></li>
+                        <li><a href="waffen.html">Other</a></li>
+                        <li><a href="elden_ring_map.html">Elden Ring Map</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <main class="col-md-9 col-sm-8">
+                <img src="../img/elden_ring_map.png" alt="Map of Elden Ring" usemap="#map1" class="elden_ring_map img-rounded" width="800">
+                <map name="map1">
+                    <area shape="rect" coords="180,550,380,850" href="#limgrave" alt="Limgrave">
+                    <area shape="rect" coords="380,470,600,700" href="#caelid" alt="Caelid">
+                    <area shape="rect" coords="0,315,230,620" href="#liurnia" alt="Liurnia">
+                    <area shape="rect" coords="40,195,360,315" href="#altus-plateau" alt="Altus Plateau">
+                    <area shape="rect" coords="360,110,620,290" href="#mounatain_of_the_giants" alt="Mountaintops of the Giants">
+                    <area shape="rect" coords="380,10,495,110" href="#miquella's_haligtree" alt="Miquella's Haligtree">
+                    <area shape="rect" coords="680,360,760,450" href="#crumbling_farum_azula"  alt="Crumbling Farum Azula">
+                </map>
+                <img src="../img/elden_ring_map_undergroud.png" alt="elden ring map underground" usemap="#map2" class="elden_ring_map img-rounded" width="800">
+                <map name="map2">
+                    <area shape="rect" coords="420,215,800,500" href="#siofra_river" alt="Siofra River">
+                    <area shape="rect" coords="230,0,535,240" href="#deeproot_depths" alt="Deeproot Depths">
+                    <area shape="rect" coords="0,230,320,750" href="#ainsel_river" alt="Ainsel River"> 
+                </map>
+                <section id="altus-plateau">
+                    <h2>Altus Plateau</h2>
+                        <p>A elevated region featuring golden fields, the royal capital Leyndell, and Mount Gelmir. The Altus Plateau serves as the gateway to the Erdtree and features diverse environments from peaceful plains to volcanic mountains.</p>
+                </section>
+                
+                <section id="mounatain_of_the_giants">
+                    <h2>Mountaintops of the Giants</h2>
+                        <p>A frozen, treacherous area high in the mountains where the Fire Giants reside. This late-game region features extreme cold, powerful enemies, and the forge where the Erdtree can be burned.</p>
+                </section>
+                
+                <section id="siofra_river">
+                    <h2>Siofra River</h2>
+                        <p>An mystical underground river system featuring ancient architecture, glowing flora, and ancestral spirits. This vast underground network connects to various parts of the Lands Between through wells and teleporters.</p>
+                </section>
+                
+                <section id="ainsel_river">
+                    <h2>Ainsel River</h2>
+                        <p>Another major underground river system with dark waters and dangerous creatures. Ainsel River features unique environments and connects to important late-game areas through its depths.</p>
+                </section>
+
+                <section id="deeproot_depths">
+                    <h2>Deeproot Depths</h2>
+                        <p>The deepest part of the underground, located beneath the Erdtree's roots. This area features giant roots, unique flora and fauna, and connections to the very foundation of the world.</p>
+                </section>
+                
+                <section id="crumbling_farum_azula">
+                    <h2>Crumbling Farum Azula</h2>
+                        <p>A floating, crumbling city caught in an eternal storm. This ancient dragon temple exists outside of time and features some of the most challenging encounters in the game.</p>
+                
+                <section id="miquella's_haligtree">
+                     <h2>Miquella's Haligtree</h2>
+                        <p>A massive, sacred tree created by Miquella as a safe haven for those spurned by the Golden Order. This optional late-game area features unique challenges and important story elements.</p>
+
+                <section id="liurnia">
+                    <h2>Liurnia of the Lakes</h2>
+                        <p>A vast wetland region dominated by a massive lake, Liurnia is home to the Academy of Raya Lucaria and features shallow waters, forests, and magical environments. The region is central to many sorcery-related quests and items.</p>
+                </section>
+                
+                <section id="caelid">
+                    <h2>Caelid</h2>
+                        <p>A blighted region ravaged by Scarlet Rot, Caelid features crimson skies, mutated creatures, and dangerous swamps. This area presents a significant challenge with powerful enemies and environmental hazards around every corner.</p>
+                </section>
+                
+                <section id="limgrave">
+                    <h2>Limgrave</h2>
+                    <p>Limgrave is the starting area for most Tarnished, featuring lush green fields, forests, and the iconic Church of Elleh. This region serves as an introduction to the Lands Between with relatively lower difficulty enemies and important early-game locations.</p>
+                </section>
+            </main>
+        </div>
+        <div class="row">
+            <footer class="col-xs-12 text-center"> 
+                <a href="../../../index.html">Contact</a>
+                <p>© 2025 SELFHTML</p>
+            </footer>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

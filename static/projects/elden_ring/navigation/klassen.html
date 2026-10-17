@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        th, td {
+            border-color: #333 !important;
+            text-align: center;
+            vertical-align: middle !important;
+        }
+        @media (min-width: 768px) {
+            .navbar-nav {
+                float: none !important;
+                display: flex !important;
+                justify-content: space-between !important;
+            }
+
+            .navbar-nav > li {
+                float: none !important
+            }
+        }
+        .navbar-nav > li > a {
+            color:#dddddd !important;
+            text-decoration: none;
+        }
+        .navbar-nav > li > a:hover {
+            text-decoration: underline;
+            color: #007BFF !important;
+        }
+        .navbar-inverse {
+            background-color: rgba(34, 34, 34, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="color:aliceblue !important;">MyWebSite</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../../index.html">Bootstrap</a></li>
+                    <li><a href="../index.html">Elden Ring Website</a></li>
+                    <li><a href="../../GK2_letztes_Jahr/index.html">Gk2 vom letzten Jahr</a></li>
+                    <li><a href="../../animation/index.html">Animation</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <header class="col-xs-12">
+                <h1 class="text-center">Origins</h1>
+            </header>
+        </div>   
+        <div class="row">
+            <nav class="col-md-3 col-sm-4">
+                <div class="well">
+                    <h2>Navigation</h2>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="klassen.html">Classes</a></li>
+                        <li><a href="attribute.html">Attribute</a></li>
+                        <li><a href="bosse.html">Bosses</a></li>
+                        <li><a href="waffen.html">Other</a></li>
+                        <li><a href="elden_ring_map.html">Elden Ring Map</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <main class="col-md-9 col-sm-8">
+                <div class="table-responsive" style="background-color: rgba(0,0,0,0.7); padding: 10px; border-radius: 5px;">
+                    <table class="table table-bordered text-center">
+                        <tr>
+                            <th>Classes</th>
+                            <td>Level</td>
+                            <td>Vigor</td>
+                            <td>Mind</td>
+                            <td>Endurance</td>
+                            <td>Strength</td>
+                            <td>Dexterity</td>
+                            <td>Intelligence</td>
+                            <td>Faith</td>
+                            <td>Arcane</td>
+                        </tr>
+                        <tr>
+                            <th><img src="../img/elden_ring_starting_classes/astrologer.png" alt="astrologer" width="100"></th>
+                            <td>6</td><td>9</td><td>15</td><td>9</td><td>8</td><td>12</td><td>16</td><td>7</td><td>9</td>
+                        </tr>
+                        <tr>
+                            <th><img src="../img/elden_ring_starting_classes/bandit.png" alt="bandit" width="100"></th>
+                            <td>5</td><td>10</td><td>11</td><td>10</td><td>9</td><td>13</td><td>9</td><td>8</td><td>14</td>
+                        </tr>
+                        <tr>
+                            <th><img src="../img/elden_ring_starting_classes/confessor.png" alt="confessor" width="100"></th>
+                            <td>10</td><td>10</td><td>13</td><td>10</td><td>12</td><td>12</td><td>9</td><td>14</td><td>9</td>
+                        </tr>
+                        <tr>
+                            <th><img src="../img/elden_ring_starting_classes/hero.png" alt="hero" width="100"></th>
+                            <td>7</td><td>14</td><td>9</td><td>12</td><td>16</td><td>9</td><td>7</td><td>8</td><td>11</td>
+                        </tr>
+                        <tr>
+                            <th><img src="../img/elden_ring_starting_classes/prisoner.png" alt="prisoner" width="100"></th>
+                            <td>9</td><td>11</td><td>12</td><td>11</td><td>11</td><td>14</td><td>14</td><td>6</td><td>9</td>
+                        </tr>
+                        <tr>
+                            <th><img src="../img/elden_ring_starting_classes/prophet.png" alt="prophet" width="100"></th>
+                            <td>7</td><td>10</td><td>14</td><td>8</td><td>11</td><td>10</td><td>7</td><td>16</td><td>11</td>
+                        </tr>
+                        <tr>
+                            <th><img src="../img/elden_ring_starting_classes/samurai.png" alt="samurai" width="100"></th>
+                            <td>9</td><td>12</td><td>11</td><td>13</td><td>12</td><td>15</td><td>9</td><td>8</td><td>8</td>
+                        </tr>
+                        <tr>
+                            <th><img src="../img/elden_ring_starting_classes/vagabond.png" alt="vagabond" width="100"></th>
+                            <td>9</td><td>15</td><td>10</td><td>11</td><td>14</td><td>13</td><td>9</td><td>9</td><td>7</td>
+                        </tr>
+                        <tr>
+                            <th><img src="../img/elden_ring_starting_classes/warrior.png" alt="warrior" width="100"></th>
+                            <td>8</td><td>11</td><td>12</td><td>11</td><td>10</td><td>16</td><td>10</td><td>8</td><td>9</td>
+                        </tr>
+                        <tr>
+                            <th><img src="../img/elden_ring_starting_classes/wretch.png" alt="wretch" width="100"></th>
+                            <td>1</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td>
+                        </tr>        
+                    </table>
+                </div>
+            
+       </main>
+        </div>
+        <div class="row">
+            <footer class="col-xs-12 text-center">
+                <a href="../../../index.html">Contact</a>
+                <p>© 2025 SELFHTML</p>
+            </footer>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

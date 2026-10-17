@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../img/elden_ring_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: aliceblue;
+    padding: 20px;
+}
+
+header h1 {
+    color: aliceblue;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.nav-pills > li > a {
+    color: goldenrod;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 5px;
+    border: 1px solid #444;
+}
+
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+    color: #ffd700;
+    background-color: rgba(50, 50, 50, 0.8);
+    text-decoration: none;
+}
+
+.well {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #444;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #444;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.carousel-inner > .item > a > img {
+    margin: 0 auto;
+    max-height: 500px;
+    border-radius: 5px;
+}
+
+.carousel-control {
+    background-image: none !important;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+    color: goldenrod;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-indicators li {
+    border: 1px solid goldenrod;
+}
+
+.carousel-indicators .active {
+    background-color: goldenrod;
+}
+
+a {
+    color: goldenrod;
+    transition: color 0.3s;
+}
+
+a:hover,
+a:focus {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid #444;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .carousel-inner > .item > a > img {
+        max-height: 300px;
+    }
+    .elden-accordion .card-header a {
+        padding: 12px 15px;
+    }
+            
+    .elden-accordion h4 {
+        font-size: 1.2em;
+    }
+            
+    .elden-accordion .card-body {
+        padding: 15px;
+    }
+}
+.elden-accordion .card {
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+        
+.elden-accordion .card:hover {
+    border-color: goldenrod;
+    box-shadow: 0 0 10px rgba(218, 165, 32, 0.3);
+}
+        
+.elden-accordion .card-header a {
+    display: block;
+    padding: 15px 20px;
+    color: goldenrod !important;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    position: relative;
+}
+        
+.elden-accordion .card-header a:hover {
+    background: rgba(218, 165, 32, 0.1);
+    color: #ffd700 !important;
+}
+        
+.elden-accordion .card-body {
+    background: rgba(20, 20, 20, 0.9);
+    color: aliceblue;
+    border-top: 1px solid #333;
+    padding: 20px;
+}
+        
+.elden-accordion h4 {
+    margin: 0;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+        
+.elden-accordion h5 {
+    color: goldenrod;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+        
+.elden-accordion ol {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+        
+.elden-accordion li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+        
+.elden-accordion .card-body > :last-child {
+    margin-bottom: 0;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    font-style: italic;
+    color: #ccc;
+}
+.elden_ring_map, .elden_ring_img {
+    max-width: 100%;
+    height: auto;
+}

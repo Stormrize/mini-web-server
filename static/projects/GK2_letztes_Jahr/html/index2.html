@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index2</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="../img/TGM_Logo.svg" alt="TGM Logo" class="logo" width="300">
+            <div class="nav">
+                <button onclick="location.href='../index.html'">Startseite</button>
+            </div> 
+            <div class="nav">
+                <button onclick="location.href='index2.html'">Kontakt</button> 
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="column">
+            <label for="klasse">Klasse:</label>
+            <select id="klasse" name="klasse"> 
+               <option>1AHIT</option>
+               <option>1BHIT</option>
+               <option>1CHIT</option>
+               <option>1DHIT</option>
+            </select>
+    
+            <label for="vorname">Vorname:</label>
+            <input type="text" id="vorname" name="vorname">
+        
+            <label for="nachname">Nachname:</label>
+            <input type="text" id="nachname" name="nachname">
+        
+            <label>Geschlecht:</label>
+            <input type="radio" id="m" name="geschlecht" value="männlich">
+            <label for="m">männlich</label>
+        
+            <input type="radio" id="w" name="geschlecht" value="weiblich">
+            <label for="w">weiblich</label>
+        
+            <input type="radio" id="d" name="geschlecht" value="divers">
+            <label for="d">divers</label>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="vname@tgm.ac.at">
+        
+            <label for="password">Passwort:</label>
+            <input type="password" id="password" name="password">
+        
+            <h4>zusätzliche Informationen, die Sie teilen möchten</h4>
+            <label for="file">Datei hochladen:</label>
+            <input type="file" id="file" name="file" accept="image/*">
+        
+            <label>Gebrauchte Geräte:</label>
+            <input type="checkbox" id="pc" name="geraete" value="PC">
+            <label for="pc">PC</label>
+        
+            <input type="checkbox" id="handy" name="geraete" value="Handy">
+            <label for="handy">Handy</label>
+        
+            <input type="checkbox" id="tv" name="geraete" value="TV">
+            <label for="tv">TV</label>
+        
+            <input type="checkbox" id="laptop" name="geräte" value="Laptop">
+            <label for="laptop">Laptop</label>
+        
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" rows="4" cols="50">
+                Schreib hier irgendwas
+            </textarea>
+        
+            <input type="submit" value="submit">
+        </section>
+        <section class="arrow-up">
+            <a href="#navbar">
+                <img src="../img/arrow-up.svg" alt="arrow-up" width="150">
+            </a>
+        </section>
+    </main>
+    <footer>
+        <h5>Impressum / Datenschutz</h5>
+        <h5>© 2025 Monke Vladyslav</h5>
+    </footer>
+</body>
+</html>

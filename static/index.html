@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar d-flex flex-column flex-md-row align-items-center p-2">
+            <img src="img/TGM_Logo.svg" alt="TGM Logo" class="logo" width="130">
+            <div class="nav m-1">
+                <button onclick="location.href='index.html'" class="btn btn-outline-primary">Startseite</button>
+            </div>
+
+            <div class="nav m-1">
+                <button onclick="location.href='html/contact_us.html'" class="btn btn-outline-primary">Kontakt</button>
+            </div>
+
+            <div class="nav m-1">
+                <button id="showToastBtn" onclick="location.href='html/project.html'" class="btn btn-outline-primary">Projects</button>
+            </div>
+        </nav>
+
+        <style>
+            #about-me { margin-bottom: 40px; }
+        </style>
+    </header>
+
+    <main>
+        <section id="about-me">
+            <h1>Vladyslav Monke</h1>
+            <h2>2AHIT</h2>
+            <h2>Gelernte Fähigkeiten:</h2>
+            <ul>
+                <li>Lernen zu können</li>
+                <li>Pünktlichkeit</li>
+                <li>Selbstorganisation</li>
+            </ul>
+            <p>
+                Mein erstes Jahr am TGM war ziemlich schwer, und ich musste mich sehr bemühen. 
+                Trotzdem bereue ich nichts, weil es genau das Richtige für mich ist. 
+                Ich bin zufrieden mit dem Weg, den ich gewählt habe. 
+                Am meisten hat mir gefallen, dass die Schüler viel Freiheit im Sinne der Selbstplanung bekommen. 
+                Meine Lieblingsfächer waren SYT, SEW und Sport.
+                Ich mag es, neue Menschen kennenzulernen. Ich bin hilfsbereit und habe Freude daran neue Dinge zu lernen. Außerdem arbeite ich gerne im Team und übernehme Verantwortung, wenn es nötig ist. 
+            </p>
+        </section>
+
+        <section id="food">
+            <table class="table">
+                <tbody>
+                    <tr class="d-flex flex-column align-items-center flex-md-row align-items-md-start justify-content-around">
+                        <td class="col-4-center">Pizza</td>
+                        <td class="col-4">
+                            <div>
+                                Pizzateig, Tomatensauce, Mozzarella, Beläge, Olivenöl, Gewürze
+                            </div>
+                        </td>
+                        <td class="col-4-center">
+                            <img src="img/pizza.jpg" class="rounded" alt="Pizza" width="200" height="150">
+                        </td>
+                    </tr>
+                    <tr class="d-flex flex-column align-items-center flex-md-row align-items-md-start justify-content-around">
+                        <td class="col-4-center">Burger</td>
+                        <td class="col-4">
+                            <div>
+                                Burgerbrötchen, Rindfleischpatty, Käse, Salat, Tomaten, Zwiebeln, Gurken, Ketchup, Mayonnaise
+                            </div>
+                        </td>
+                        <td class="col-4-center">
+                            <img src="img/burger.jpg" class="rounded" alt="Burger" width="200" height="150">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="text-end" style="color:grey; padding: 10px;">
+        <h6>Impressum / Datenschutz</h6>
+        <h6>© 2025 Monke Vladyslav</h6>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript/javascript.js" defer></script>
+</body>
+</html>

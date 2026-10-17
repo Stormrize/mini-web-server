@@ -1,0 +1,74 @@
+html {
+    font-family: 'Roboto', sans-serif; 
+    scroll-behavior: smooth;
+}
+button {
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black !important;
+    font-size: 25px;
+    transition: color 0.3s ease-in-out;
+}
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #f8f9fa;
+}
+button:hover {
+    transform: scale(1.1);
+    color: blue;
+}
+
+.navbar {
+    background: white;
+    box-shadow: 10px 2px 10px rgba(0,0,0,0.05);
+    margin-top: 7px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: all 0.25s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+}
+
+.card-img-top {
+    height: 220px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bi-clipboard {
+    cursor: pointer;
+    color: #6c757d;
+    transition: all 0.2s ease;
+}
+
+.bi-clipboard:hover {
+    color: #0d6efd;
+}
+
+.bi:active {
+    transform: scale(0.95);
+}
+
+footer {
+    margin-top: 100px;
+    background: white;
+    border-top: 1px solid #e9ecef;
+}

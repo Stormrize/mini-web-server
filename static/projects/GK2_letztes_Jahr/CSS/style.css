@@ -1,0 +1,144 @@
+html {
+    font-family: 'Roboto', sans-serif; /* Schriftart für die gesamte Seite */
+    scroll-behavior: smooth; /* Sanftes Scrollen */
+}
+
+body {
+    height: 100%; /* Volle Höhe des Bildschirms */
+}
+@media (max-width: 768px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav {
+        margin-top: 20px;
+    }
+}
+#navbar {
+    display: flex; /* Flexbox für Navigation */
+    justify-content: space-between; /* Elemente gleichmäßig verteilen */
+    align-items: center; /* Vertikale Ausrichtung */
+    padding-bottom: 30px;
+}
+
+button {
+    background-color: aliceblue; /* Hintergrundfarbe der Buttons */
+    color: black; /* Schriftfarbe */
+    border: none; /* Kein Rahmen */
+    cursor: pointer; /* Zeiger für Klickbarkeit */
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Weicher Farbwechsel */
+    border-radius: 8px; /* Abgerundete Ecken */
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: blue; /* Farbänderung beim Hover */
+}
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column; /* Anordnung der Elemente untereinander */
+    align-items: center; /* Zentrierte Elemente */
+    font-size: 20px;
+}
+
+label, input, select, textarea {
+    margin-bottom: 20px; /* Abstand zwischen den Eingabefeldern */
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 2px solid #ccc; /* Grauer Rahmen */
+    border-radius: 8px; /* Abgerundete Ecken */
+    font-size: 16px;
+    background-color: #f9f9f9; /* Hellgrauer Hintergrund */
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #007bff; /* Blaue Umrandung beim Fokus */
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Weicher Schatten */
+    outline: none;
+}
+
+textarea {
+    resize: none; /* Keine Größenveränderung möglich */
+    height: 120px; /* Feste Höhe */
+}
+
+header {
+    background-color: aliceblue; /* Hintergrundfarbe des Headers */
+}
+
+main {
+    background-color: #E6E6FA; /* Lavendelfarbener Hintergrund */
+    padding: 15px;
+}
+.arrow-up {
+    display: block;
+    text-align: center; /* Pfeil in die Mitte */
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+footer {
+    background-color: #98FB98; /* Hellgrüner Hintergrund */
+    padding-top: 30px;
+    display: block;
+    text-align: center; /* Pfeil in die Mitte */
+    padding-bottom: 30px;
+}
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color:#ddd;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.cell {
+    flex: 1; 
+    padding: 10px;
+    text-align: center;
+}
+
+.cell:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+   .row {
+        flex-direction: column;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 20px;
+        background-color: aliceblue;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    } 
+
+    .cell:first-child {
+        font-weight: bold;
+        font-size: 18px;
+    }
+}

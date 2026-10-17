@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        @media (min-width: 768px) {
+            .navbar-nav {
+                float: none !important;
+                display: flex !important;
+                justify-content: space-between !important;
+            }
+
+            .navbar-nav > li {
+                float: none !important
+            }
+        }
+        .navbar-nav > li > a {
+            color:#dddddd !important;
+            text-decoration: none;
+        }
+        .navbar-nav > li > a:hover {
+            text-decoration: underline;
+            color: #007BFF !important;
+        }
+        .navbar-inverse {
+            background-color: rgba(34, 34, 34, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="color:aliceblue !important;">MyWebSite</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../../index.html">Bootstrap</a></li>
+                    <li><a href="../index.html">Elden Ring Website</a></li>
+                    <li><a href="../../GK2_letztes_Jahr/index.html">Gk2 vom letzten Jahr</a></li>
+                    <li><a href="../../animation/index.html">Animation</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <header class="col-xs-12">
+                <h1 class="text-center">Stats</h1>
+            </header>
+        </div>
+        <div class="row">
+            <nav class="col-md-3 col-sm-4">
+                <div class="well">
+                    <h2>Navigation</h2>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="klassen.html">Classes</a></li>
+                        <li><a href="attribute.html">Attribute</a></li>
+                        <li><a href="bosse.html">Bosses</a></li>
+                        <li><a href="waffen.html">Other</a></li>
+                        <li><a href="elden_ring_map.html">Elden Ring Map</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <main class="col-md-9 col-sm-8">
+                <div id="accordion" class="elden-accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                <h4>⚔️ Vigor</h4>
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <h5>What it affects:</h5>
+                                <ol>
+                                    <li>Maximum HP (health)</li>
+                                    <li>Fire resistance</li>
+                                    <li>Immunity resistance</li>
+                                </ol>
+                                <div><strong>Purpose:</strong> Increases your survivability. Most builds invest heavily in Vigor.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                                <h4>🧠 Mind</h4>
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <h5>What it affects:</h5>
+                                <ol>
+                                    <li>Maximum FP (mana)</li>
+                                    <li>Focus resistance</li>
+                                </ol> 
+                                <div><strong>Purpose:</strong> Needed for casting spells, weapon skills, and Ashes of War.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                                <h4>💪 Endurance</h4>
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <h5>What it affects:</h5>  
+                                <ol>
+                                    <li>Maximum stamina</li>
+                                    <li>Equip load (how heavy your armor and weapons can be)</li>
+                                    <li>Robustness resistance</li>
+                                </ol>
+                                <div><strong>Purpose:</strong> Helps you roll more, block more, and wear heavier armor.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                                <h4>🏋️ Strength</h4>
+                            </a>
+                        </div>
+                        <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <h5>What it affects:</h5>
+                                <ol>
+                                    <li>Physical damage with Strength-scaling weapons</li>
+                                    <li>Ability to use heavy weapons and shields</li>
+                                    <li>Increases damage when two-handing a weapon</li>
+                                </ol>
+                                <div><strong>Purpose:</strong> Main stat for heavy weapons (colossal swords, greataxes, hammers).</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                                <h4>🎯 Dexterity</h4>
+                            </a>
+                        </div>
+                        <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <h5>What it affects:</h5>
+                                <ol>
+                                    <li>Physical damage with Dexterity-scaling weapons</li>
+                                    <li>Casting speed (slightly)</li>
+                                    <li>Reduces falling damage</li>
+                                    <li>Makes you harder to be knocked off your horse</li>
+                                </ol>
+                                <div><strong>Purpose:</strong> Main stat for fast weapons (katanas, curved swords, spears).</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSix">
+                                <h4>🔮 Intelligence</h4>
+                            </a>
+                        </div>
+                        <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <h5>What it affects:</h5>
+                                <ol>
+                                    <li>Magic damage (sorceries)</li>
+                                    <li>Magic defense</li>
+                                    <li>Weapons that scale with Intelligence</li>
+                                </ol>
+                                <div><strong>Purpose:</strong> Main stat for sorcerers (Glintstone magic builds).</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSeven">
+                                <h4>✨ Faith</h4>
+                            </a>
+                        </div>
+                        <div id="collapseSeven" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <h5>What it affects:</h5>
+                                <ol>
+                                    <li>Incantation damage</li>
+                                    <li>Ability to cast healing, fire, lightning, holy spells</li>
+                                    <li>Increases resistance to holy damage</li>
+                                </ol>
+                                <div><strong>Purpose:</strong> Main stat for faith builds (lightning, flame, holy spells).</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseEight">
+                                <h4>🎲 Arcane</h4>
+                            </a>
+                        </div>
+                        <div id="collapseEight" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <h5>What it affects:</h5>
+                                <ol>
+                                    <li>Item discovery (drop rate of items)</li>
+                                    <li>Holy damage on certain weapons</li>
+                                    <li>Status effects: bleed, poison, rot, frost buildup</li>
+                                    <li>Some spells/weapons scale with Arcane</li>
+                                </ol>
+                                <div><strong>Purpose:</strong> Used for bleed builds, dragon communion spells, and luck-based weapons.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="row"></div>
+            <footer class="col-xs-12 text-center"> 
+                <a href="../../../index.html">Contact</a>
+                <p>© 2025 SELFHTML</p>
+            </footer> 
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
